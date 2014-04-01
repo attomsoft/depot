@@ -1,0 +1,332 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"noti",
+				"notify_manual_url"
+			],
+			[
+				"notify",
+				"notify_url"
+			],
+			[
+				"orderda",
+				"orderdate"
+			],
+			[
+				"sour",
+				"sourceMsgObj"
+			],
+			[
+				"net",
+				"net_type"
+			],
+			[
+				"no",
+				"notify_type"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"tex",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Ruby/Ruby.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"github: ",
+				"GitHub: Open Gist in Browser"
+			],
+			[
+				"github:swit",
+				"GitHub: Switch Accounts"
+			],
+			[
+				"github:",
+				"GitHub: Switch Accounts"
+			],
+			[
+				"github:s	",
+				"GitHub: Switch Accounts"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 238.0,
+		"history":
+		[
+			"rake about",
+			"ruby \"D:\\sandbox\\ruby\\hello.rb\"",
+			"d:",
+			"ruby hello.rb",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler( ))); open( os.path.join( ipp, pf), 'wb' ).write( urllib2.urlopen( 'http://sublime.wbond.net/' +pf.replace( ' ','%20' )).read()); print( 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"install"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/sandbox/rails/demo/app/views/say/hello.html.erb",
+		"/D/sandbox/rails/demo/app/controllers/say_controller.rb",
+		"/D/sandbox/rails/demo/app/views/say/list.html.erb",
+		"/D/sandbox/rails/demo/config/routes.rb",
+		"/D/sandbox/rails/demo/app/views/say/goodbye.html.erb",
+		"/C/Users/mingyu/AppData/Roaming/Sublime Text 3/Packages/User/GitHub.sublime-settings",
+		"/C/Users/mingyu/AppData/Roaming/Sublime Text 3/Packages/sublime-github/GitHub.sublime-settings",
+		"/C/Users/mingyu/AppData/Roaming/Sublime Text 3/Packages/CodeFormatter/CodeFormatter.sublime-settings",
+		"/C/Users/mingyu/AppData/Roaming/Sublime Text 3/Packages/User/CodeFormatter.sublime-settings",
+		"/C/Users/mingyu/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/sandbox/rails/demo/config/environments/test.rb",
+		"/D/sandbox/rails/demo/test/integration/.keep",
+		"/D/sandbox/rails/demo/config/initializers/filter_parameter_logging.rb",
+		"/C/Users/mingyu/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/mingyu/AppData/Roaming/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/C/Users/mingyu/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/mingyu/AppData/Roaming/Sublime Text 3/Packages/User/Ruby.sublime-settings",
+		"/D/sandbox/ruby/hello.rb",
+		"/D/sandbox/ruby/sample.txt",
+		"/D/Projects/roksys.com/bizope.com/code/wp-plugins-wpmudev-06-2013/wordpress-plugins-wpmudev-06-2013/WPMU DEV Plugins/203378_marketpress-2.8.7/marketpress/marketpress-includes/plugins-gateway/moneybookers.php",
+		"/D/Projects/roksys.com/bizope.com/wp-预选插件/203378_marketpress-2.8.7/marketpress/marketpress-includes/plugins-gateway/paypal-express.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/Projects/roksys.com/bizope.com/code/wp-plugins-wpmudev-06-2013/wordpress-plugins-wpmudev-06-2013/WPMU DEV Plugins/203378_marketpress-2.8.7/marketpress/marketpress.php",
+		"/D/Projects/roksys.com/bizope.com/code/wp-plugins-wpmudev-06-2013/wordpress-plugins-wpmudev-06-2013/WPMU DEV Plugins/203378_marketpress-2.8.7/marketpress/marketpress-includes/marketpress-gateways.php",
+		"/D/Projects/roksys.com/bizope.com/code/wp-plugins-wpmudev-06-2013/wordpress-plugins-wpmudev-06-2013/WPMU DEV Plugins/203378_marketpress-2.8.7/marketpress/marketpress-includes/template-functions.php",
+		"/D/Projects/roksys.com/bizope.com/code/wp-plugins-wpmudev-06-2013/wordpress-plugins-wpmudev-06-2013/WPMU DEV Plugins/203378_marketpress-2.8.7/marketpress/marketpress-includes/plugins-gateway/google-checkout.php",
+		"/D/Projects/roksys.com/bizope.com/code/bocom-b2c-marketpress/bocom.php",
+		"/D/Projects/roksys.com/bizope.com/wp-预选插件/203378_marketpress-2.8.7/marketpress/marketpress-includes/marketpress-gateways.php",
+		"/D/Projects/roksys.com/bizope.com/code/whmcs529-nulled-suite/nulled-upload/modules/gateways/asiapay.php",
+		"/D/Projects/roksys.com/bizope.com/code/whmcs529-nulled-suite/dev-bocomm-gateway/bocom.php",
+		"/D/Projects/roksys.com/bizope.com/wp-预选插件/203378_marketpress-2.8.7/marketpress/marketpress-includes/plugins-gateway/2checkout.php",
+		"/D/Projects/roksys.com/bizope.com/code/wp-plugins-wpmudev-06-2013/wordpress-plugins-wpmudev-06-2013/WPMU DEV Plugins/203378_marketpress-2.8.7/marketpress/marketpress-includes/marketpress-data.php",
+		"/D/Projects/roksys.com/bizope.com/code/whmcs529-nulled-suite/nulled-upload/modules/gateways/boleto.php",
+		"/D/Projects/roksys.com/bizope.com/code/whmcs529-nulled-suite/nulled-upload/modules/gateways/authorize.php",
+		"/C/Program Files/Sublime Text 3/changelog.txt",
+		"/D/Projects/roksys.com/bizope.com/wp-预选插件/203378_pro-sites-3.4/pro-sites/pro-sites-files/gateways/gateway-paypal-express-pro.php",
+		"/D/Projects/roksys.com/bizope.com/wp-预选插件/203378_pro-sites-3.4/pro-sites/pro-sites.php",
+		"/D/Projects/roksys.com/bizope.com/wp-预选插件/203378_pro-sites-3.4/pro-sites/pro-sites-files/gateways/gateway-manual.php",
+		"/D/Projects/roksys.com/bizope.com/wp-预选插件/203378_pro-sites-3.4/pro-sites/pro-sites-files/plugins-loader.php",
+		"/D/Projects/roksys.com/bizope.com/wp-预选插件/203378_pro-sites-3.4/pro-sites/pro-sites-files/gateways/gateway-stripe.php",
+		"/D/Projects/roksys.com/bizope.com/wp-预选插件/203378_pro-sites-3.4/pro-sites/pro-sites-files/gateways/gateway-stripe-files/lib/Stripe.php",
+		"/C/Users/mingyu/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/mingyu/Desktop/bizope-ui_files/styles_green.css",
+		"/C/Users/mingyu/Desktop/bizope-ui.htm",
+		"/D/Projects/tjxianke.com/rt-Quantive_wp-1-4/rt-Quantive_wp-1-4/rt_quantive_wp/rt_quantive_wp/footer.php",
+		"/D/Projects/tjxianke.com/rt-Quantive_wp-1-4/rt-Quantive_wp-1-4/rt_quantive_wp/rt_quantive_wp/index.php",
+		"/D/Projects/tjxianke.com/rt-Quantive_wp-1-4/rt-Quantive_wp-1-4/rt_quantive_wp/rt_quantive_wp/html/index.php",
+		"/D/Projects/tjxianke.com/rt-Quantive_wp-1-4/rt-Quantive_wp-1-4/rt_quantive_wp/rt_quantive_wp/html/page.php",
+		"/D/Projects/tjxianke.com/rt-Quantive_wp-1-4/rt-Quantive_wp-1-4/rt_quantive_wp/rt_quantive_wp/gantry.config.php",
+		"/C/Program Files/Sublime Text 3/_elementtree.pyd"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ipn",
+			"blogid",
+			"blog",
+			"require_once",
+			"get_order",
+			"$_SESSION['mp_order']",
+			"mp_checkout_payment_confirmation",
+			"mp_checkout_payment_confirmation_",
+			"order_confirm",
+			"order_confirmation",
+			"order",
+			"['method]",
+			"notify_url",
+			"icon",
+			"time",
+			"imgbank",
+			";\n",
+			"91c",
+			"nav-container",
+			"nav-contain",
+			"border",
+			"1170",
+			"10px",
+			";\n",
+			"url",
+			"background",
+			"rt-surround"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"bocom/icon",
+			"icon"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "depot.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 185.0,
+		"selected_items":
+		[
+		],
+		"width": 378.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 342.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

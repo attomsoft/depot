@@ -58,12 +58,21 @@ class LineItemsController < ApplicationController
   # DELETE /line_items/1
   # DELETE /line_items/1.json
   def destroy
-    @line_item.destroy
+    @cart = current_cart
+    quantity = @line_item.quantity
+    if quantity > 1
+      @line_item.quantity -= 1
+    else
+      @line_item.destroy
+    end
+    @line_item.save
     respond_to do |format|
       format.html { redirect_to store_path }
+      format.js
       format.json { head :no_content }
     end
   end
+
 
   private
     # Use callbacks to share common setup or constraints between actions.

@@ -29,17 +29,17 @@ html,body {
   background: #141;
 
   #main {
-    margin-left: 17em;
+    margin-left: 30%;
     padding: 1em;
     background: white;
+    
   }
 
   #side {
   	clear:both;
     float: left;
-    padding: 1em 2em;
-    width: 13em;
-    background: #141;
+    padding-left: 2em;
+    width: 30%;
 
     ul {
       padding: 0;
@@ -69,6 +69,7 @@ html,body {
       border-top: 1px dotted #595;
       border-bottom: 1px dotted #595;
       margin-bottom: 10px;
+      width: auto;
     }
   }
 }

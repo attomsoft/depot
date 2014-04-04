@@ -6,6 +6,9 @@ gem 'rails', '4.0.0'
 # Use ByeBug for debug
 gem 'byebug'
 
+# Use pagination
+gem 'will_paginate'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 

@@ -46,6 +46,7 @@ class ProductsControllerTest < ActionController::TestCase
   end
 
   test "should destroy product" do
+    # TODO: this test should be rewrite according to the controller and model
     assert_difference('Product.count', -1) do
       delete :destroy, id: @product
     end

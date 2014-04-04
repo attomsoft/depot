@@ -14,7 +14,7 @@ class OrdersControllerTest < ActionController::TestCase
   test "should get new" do
     # TODO: This test should be rewrite according to the controller
     get :new
-    assert_response :success
+    assert_redirected_to store_path
   end
 
   test "should create order" do

@@ -1,0 +1,8 @@
+Dear <%= @order.name %>
+
+Thank you for your recent order from Attomsoft store.
+
+You ordered the following item:
+<%= render @order.line_items %>
+
+We'll send you a separate email when your order ships.

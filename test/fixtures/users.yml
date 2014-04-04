@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyFirstName
+  password_digest: MyPassword
+
+two:
+  name: MySecondName
+  password_digest: MyPassword

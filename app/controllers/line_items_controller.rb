@@ -1,5 +1,5 @@
 class LineItemsController < ApplicationController
-  before_action :set_line_item, only: [:show, :edit, :update, :destroy]
+  before_action :set_line_item, only: [:show, :edit, :update, :destroy, :remove_product]
 
   # GET /line_items
   # GET /line_items.json
@@ -58,6 +58,18 @@ class LineItemsController < ApplicationController
   # DELETE /line_items/1
   # DELETE /line_items/1.json
   def destroy
+    @line_item.destroy
+    @line_item.save
+    respond_to do |format|
+      format.html { redirect_to store_path }
+      format.js
+      format.json { head :no_content }
+    end
+  end
+
+  # POST /line_item/1/remove_product
+  # remove a product from current line
+  def remove_product
     @cart = current_cart
     
     @line_item = @cart.del_product(@line_item.product_id)
@@ -68,7 +80,6 @@ class LineItemsController < ApplicationController
       format.json { head :no_content }
     end
   end
-
 
   private
     # Use callbacks to share common setup or constraints between actions.

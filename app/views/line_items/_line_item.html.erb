@@ -9,6 +9,6 @@
   <%= number_to_currency(line_item.total_price) %>
   </td>
   <td>
-  <%= button_to ' - ', line_item, method: :delete, remote: true %>
+  <%= button_to ' - ', remove_product_line_item_path(line_item.id), method: :post, remote: true %>
   </td>
 </tr>

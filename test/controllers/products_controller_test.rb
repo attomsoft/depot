@@ -52,6 +52,7 @@ class ProductsControllerTest < ActionController::TestCase
 
     assert_redirected_to products_path
   end
+
   test "should destroy product" do
     # TODO: this test should be rewrite according to the controller and model
     assert_difference('Product.count', -1) do

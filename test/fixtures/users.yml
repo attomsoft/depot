@@ -1,8 +1,8 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  name: MyFirstName
-  password_digest: MyPassword
+  name: jame
+  password_digest: <%= Password.create('123123') %>
 
 two:
   name: MySecondName
